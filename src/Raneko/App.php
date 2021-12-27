@@ -28,7 +28,7 @@ class App {
      * Exception will be thrown if there is attempt to instantiate the APP more than once.
      * @var type
      */
-    private $instance = NULL;
+    private static $instance = NULL;
 
     public function test() {
         echo "OK";
