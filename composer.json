@@ -1,5 +1,5 @@
 {
-    "name": "vendor/raneko-base",
+    "name": "raneko/raneko-base",
     "version": "1.0.0",
     "description": "Raneko Base Classes",
     "license": "MIT",
