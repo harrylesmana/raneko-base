@@ -1,0 +1,22 @@
+{
+    "name": "vendor/raneko-base",
+    "version": "1.0.0",
+    "description": "Raneko Base Classes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harry Lesmana",
+            "email": "harry.lesmana@msn.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.17.1",
+        "dragonmantank/cron-expression": "3.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "classmap": ["classes"]
+    }
+}
