@@ -2,7 +2,8 @@
     "name": "raneko/raneko-base",
     "version": "1.0.0",
     "description": "Raneko Base Classes",
-    "license": "MIT",
+    "type": "library",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Harry Lesmana",
@@ -10,6 +11,7 @@
         }
     ],
     "require": {
+        "php": "^7.1",
         "monolog/monolog": "1.17.1",
         "dragonmantank/cron-expression": "3.0.0"
     },
@@ -17,6 +19,8 @@
         "phpunit/phpunit": "^7"
     },
     "autoload": {
-        "classmap": ["classes"]
+        "psr-4": {
+            "Raneko\\": "src/"
+        }
     }
 }
